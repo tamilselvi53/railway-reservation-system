@@ -7,7 +7,6 @@ public class TicketBooking {
     static ArrayList<Passenger> confirmedTickets = new ArrayList<>();
     static Queue<Passenger> racQueue = new PriorityQueue<>((a, b) -> a.getId() - b.getId());
     static Queue<Passenger> waitingListQueue = new PriorityQueue<>((a, b) -> a.getId() - b.getId());
-
     static ArrayList<Passenger> upperBerth = new ArrayList<>();
     static ArrayList<Passenger> middleBerth = new ArrayList<>();
     static ArrayList<Passenger> lowerBerth = new ArrayList<>();
